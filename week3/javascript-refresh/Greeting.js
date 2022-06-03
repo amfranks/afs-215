@@ -1,7 +1,7 @@
 module.exports = class Greeting {
     constructor(userName = "Joe", userAge = 19) {
-        this.userName = userName,
-        this.userAge = userAge
+        this.userName = userName;
+        this.userAge = userAge;
     }
 
     userInfo = () => { return `Hi ${this.userName}. You are ${this.userAge} years old!` }
