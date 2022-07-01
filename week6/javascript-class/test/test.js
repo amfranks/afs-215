@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const myArray = require('../myArray');
+const myArray = require('../MyArray');
 
 // it('Adds an item to the array.', function() {
 //     array = new myArray();
